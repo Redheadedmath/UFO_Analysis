@@ -2,7 +2,7 @@
 ## Analysis Overview #
 This project refines a javascript data set of UFO observations and creates a dynamic table in HTML that allows the curious observer to search for other similar UFO occurrences. The data set of this project covers a scope of 2 weeks in January of 2010, as is clarified in the filter on the page. The table can filter UFO observations by the following criteria. 
 
-### Filter Criteria###
+### Filter Criteria ###
 <ul>
     <li>The <b>date</b> of occurrence</li>
     <li>The nearest <b>city</b></li>
@@ -11,12 +11,12 @@ This project refines a javascript data set of UFO observations and creates a dyn
     <li>The <b>shape</b> of the supposed UFO</li>
 </ul>
 
-## Results##
+## Results ##
 Using the above filter criteria, the curious user can filter through the collected data by any combination or individual criteria. The javascript “listens” for updates to the filters using the <b>d3</b> package. <br /> <br />
 The clean table head and filter look like this. 
-<p>
-    <img src=“results/emptyFilter.png” width=“300” />
-</p>
+<table><tr>
+<td> <img src="results/emptyFilter.png" alt="Drawing" style="width: 100px;"/> </td>
+</tr></table>
 
 The user can filter by a single criteria, such as date, like this search below. <br />
 <img src=“results/dateFilter.png” width=“300” /> <br />
