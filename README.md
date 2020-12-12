@@ -12,6 +12,6 @@ This project refines a javascript data set of UFO observations and creates a dyn
 ##Results##
 Using the above filter criteria, the curious user can filter through the collected data by any combination or individual criteria. The javascript “listens” for updates to the filters using the <b>d3</b> package. <br /> <br />
 The clean table head and filter look like this. 
-<p>
+<p float="left">
     <img src=“static/images/emptyFilter.png” width=“300” />
 </p>
