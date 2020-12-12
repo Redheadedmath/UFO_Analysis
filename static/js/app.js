@@ -59,9 +59,7 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    // for (let [key, value] of Object.entries(filters)) {
-    //   filteredData = filteredData.filter(row => row.property === value);
-    // };
+    
     for (let [key, value] of Object.entries(filters)) {
       filteredData = filteredData.filter(row => row[key] === filters[key]);
     }
