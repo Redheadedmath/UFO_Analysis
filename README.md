@@ -26,5 +26,6 @@ The user can filter by a single criteria, such as date, like this search below. 
 The user can also filter by multiple or all criteria. Here are two examples where a search was done by Date and Shape, and another by Date and State. <br />
 <table><tr>
 <td> <img src="results/dateAndShape.png" alt="Drawing" style="width: 100px;"/> </td>
-<td> <img src="results/dateAndState.png" alt="Drawing" style="width: 100px;"/> </td>
-</tr></table>
+</tr>
+<tr> <td> <img src="results/dateAndState.png" alt="Drawing" style="width: 100px;"/> </td> </tr>
+</table>
