@@ -1,7 +1,8 @@
 # UFO_Analysis
 ## Analysis Overview #
-This project refines a javascript data set of UFO observations and creates a dynamic table in HTML that allows the curious observer to search for other similar UFO occurrences. The data set of this project covers a scope of 2 weeks in January of 2010, as is clarified in the filter on the page. The table can filter UFO observations by the following criteria.
-###Filter Criteria###
+This project refines a javascript data set of UFO observations and creates a dynamic table in HTML that allows the curious observer to search for other similar UFO occurrences. The data set of this project covers a scope of 2 weeks in January of 2010, as is clarified in the filter on the page. The table can filter UFO observations by the following criteria. 
+
+### Filter Criteria###
 <ul>
     <li>The <b>date</b> of occurrence</li>
     <li>The nearest <b>city</b></li>
@@ -9,9 +10,17 @@ This project refines a javascript data set of UFO observations and creates a dyn
     <li>The <b>country</b></il>
     <li>The <b>shape</b> of the supposed UFO</li>
 </ul>
-##Results##
+
+## Results##
 Using the above filter criteria, the curious user can filter through the collected data by any combination or individual criteria. The javascript “listens” for updates to the filters using the <b>d3</b> package. <br /> <br />
 The clean table head and filter look like this. 
-<p float="left">
-    <img src=“static/images/emptyFilter.png” width=“300” />
+<p>
+    <img src=“results/emptyFilter.png” width=“300” />
 </p>
+
+The user can filter by a single criteria, such as date, like this search below. <br />
+<img src=“results/dateFilter.png” width=“300” /> <br />
+
+The user can also filter by multiple or all criteria. Here are two examples where a search was done by Date and Shape, and another by Date and State. <br />
+<img src=“results/dateAndShape.png” width=“300” />
+<img src=“results/dateAndState.png” width=“300” />
