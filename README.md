@@ -19,8 +19,12 @@ The clean table head and filter look like this.
 </tr></table>
 
 The user can filter by a single criteria, such as date, like this search below. <br />
-<img src=“results/dateFilter.png” width=“300” /> <br />
+<table><tr>
+<td> <img src="results/dateFilter.png" alt="Drawing" style="width: 100px;"/> </td>
+</tr></table>
 
 The user can also filter by multiple or all criteria. Here are two examples where a search was done by Date and Shape, and another by Date and State. <br />
-<img src=“results/dateAndShape.png” width=“300” />
-<img src=“results/dateAndState.png” width=“300” />
+<table><tr>
+<td> <img src="results/dateAndShape.png" alt="Drawing" style="width: 100px;"/> </td>
+<td> <img src="results/dateAndState.png" alt="Drawing" style="width: 100px;"/> </td>
+</tr></table>
